@@ -1,9 +1,3 @@
 #!/bin/bash
 
-# the server's address
-SERVER_ADDRESS=54.160.65.31
-
-# the private key
-PRIVATE_KEY_PATH="~/.ssh/school"
-
-ssh -i $PRIVATE_KEY_PATH ubuntu@$SERVER_ADDRESS
+ssh -i ~/.ssh/school ubuntu@54.160.65.31
